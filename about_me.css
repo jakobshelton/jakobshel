@@ -1,0 +1,77 @@
+@charset "utf-8";
+/* set background color of the body to black */
+body {
+  background-color: black;
+  margin: 0; /* remove default margin */
+}
+
+/* style for the navigation links */
+nav a {
+  color: white; /* set link text color to white */
+  padding: 10px; /* add some padding to make the links more visible */
+  border: 2px solid white; /* add white border to selection box */
+  display: block; /* display links as blocks to make them stack vertically on mobile screens */
+  text-align: center; /* center link text */
+  width: 100%; /* set link width to 100% to fill the nav bar */
+}
+
+/* style for the active navigation link */
+nav a:hover,
+nav a.active {
+  background-color: red; /* set background color to red */
+}
+
+/* style for the main content */
+main {
+  display: flex; /* use flexbox to position images and paragraphs side by side */
+  justify-content: center; /* center the items horizontally */
+  align-items: center; /* center the items vertically */
+  flex-wrap: wrap; /* allow items to wrap to the next line */
+  padding: 20px; /* add some padding to separate the content from the edges */
+}
+
+/* style for the images */
+main img {
+  margin: 20px; /* add some margin to separate the images from the paragraphs */
+  max-width: 100%; /* set max width to prevent images from overflowing on mobile screens */
+}
+
+/* style for the paragraphs */
+main p {
+  color: white; /* set text color to white */
+  margin: 20px; /* add some margin to separate the paragraphs from the images */
+  max-width: 400px; /* set max width to prevent paragraphs from becoming too wide on mobile screens */
+  text-align: center; /* center the paragraphs */
+}
+
+/* style for the footer */
+footer {
+  background-color: red; /* set background color to red */
+  color: white; /* set text color to white */
+  padding: 10px; /* add some padding to make the footer more visible */
+  text-align: center; /* center the footer text */
+}
+
+/* media queries for mobile screens */
+@media only screen and (max-width: 600px) {
+  nav a {
+    display: inline-block; /* display links as inline-blocks to make them appear side by side */
+    width: auto; /* reset link width */
+    border: none; /* remove link border */
+  }
+
+  main {
+    flex-direction: column; /* stack the items vertically */
+    padding: 10px; /* reduce padding */
+  }
+
+  main img {
+    margin: 10px 0; /* reduce margin */
+  }
+
+  main p {
+    margin: 10px 0; /* reduce margin */
+    max-width: none; /* reset max width */
+    text-align: left; /* left align paragraphs */
+  }
+}

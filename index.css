@@ -6,7 +6,7 @@ body {
 }
 
 /* style for the navigation links */
-nav a {
+nav {
   color: white; /* set link text color to white */
   padding: 10px; /* add some padding to make the links more visible */
   border: 2px solid white; /* add white border to selection box */

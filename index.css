@@ -1,7 +1,7 @@
 @charset "utf-8";
 /* set background color of the body to black */
 body {
-  background-color: black;
+  background-color: white;
   margin: 0; /* remove default margin */
 }
 
@@ -10,7 +10,7 @@ nav a {
   color: white; /* set link text color to white */
   padding: 10px; /* add some padding to make the links more visible */
   border: 2px solid white; /* add white border to selection box */
-  display: block; /* display links as blocks to make them stack vertically on mobile screens */
+  display: inline-block; /* display links as blocks to make them stack vertically on mobile screens */
   text-align: center; /* center link text */
   width: 100%; /* set link width to 100% to fill the nav bar */
 }

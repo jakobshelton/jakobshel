@@ -9,7 +9,7 @@ body {
 nav {
   color: white; /* set link text color to white */
   padding: 10px; /* add some padding to make the links more visible */
-  border: 2px solid white; /* add white border to selection box */
+  border: 2px solid black; /* add white border to selection box */
   display: inline-block; /* display links as blocks to make them stack vertically on mobile screens */
   text-align: center; /* center link text */
   width: 100%; /* set link width to 100% to fill the nav bar */
@@ -46,7 +46,7 @@ main p {
 
 /* style for the footer */
 footer {
-  background-color: red; /* set background color to red */
+  background-color: white /* set background color to red */
   color: white; /* set text color to white */
   padding: 10px; /* add some padding to make the footer more visible */
   text-align: center; /* center the footer text */

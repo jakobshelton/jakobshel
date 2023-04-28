@@ -7,13 +7,15 @@ body {
 
 /* style for the navigation links */
 nav a {
-  color: white; /* set link text color to white */
-  padding: 10px; /* add some padding to make the links more visible */
-  border: 2px solid white; /* add white border to selection box */
-  display: block; /* display links as blocks to make them stack vertically on mobile screens */
-  text-align: center; /* center link text */
-  width: 100%; /* set link width to 100% to fill the nav bar */
+  color: white;
+  padding: 10px;
+  border: 2px solid white;
+  display: inline-block; /* display links as inline blocks */
+  text-align: center;
+  width: auto; /* set link width to auto to fit the content */
+  margin-right: 10px; /* add some margin to separate the links */
 }
+
 
 /* style for the active navigation link */
 nav a:hover,

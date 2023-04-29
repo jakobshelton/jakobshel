@@ -7,7 +7,7 @@ body {
 
 /* style for the navigation links */
 nav {
-  color: white; /* set link text color to white */
+  color: black; /* set link text color to white */
   padding: 10px; /* add some padding to make the links more visible */
   border: 2px solid black; /* add white border to selection box */
   display: inline-block; /* display links as blocks to make them stack vertically on mobile screens */
@@ -38,7 +38,7 @@ main img {
 
 /* style for the paragraphs */
 main p {
-  color: white; /* set text color to white */
+  color: black; /* set text color to white */
   margin: 20px; /* add some margin to separate the paragraphs from the images */
   max-width: 400px; /* set max width to prevent paragraphs from becoming too wide on mobile screens */
   text-align: center; /* center the paragraphs */
